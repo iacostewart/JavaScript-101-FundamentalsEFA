@@ -15,13 +15,13 @@
 
 // write a for loop that captalizes the first letter of studentName 
 
-var studentName = "paul"; 
-var capSN = '';
-for ( var n in studentName) {
-    if (n == 0) {
-        capSN = studentName[n].toUpperCase();
-    } else {
-        capSN += studentName[n];
-    }
-}
-console.log(capSN);
+// var studentName = "paul"; 
+// var capSN = '';
+// for ( var n in studentName) {
+//     if (n == 0) {
+//         capSN = studentName[n].toUpperCase();
+//     } else {
+//         capSN += studentName[n];
+//     }
+// }
+// console.log(capSN);
