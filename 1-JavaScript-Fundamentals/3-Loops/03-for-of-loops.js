@@ -21,20 +21,20 @@
 
         */
        
-var catArray = ['tabby', 'british shorthair', 'burmese', 'main coon', 'rag doll'];
+// var catArray = ['tabby', 'british shorthair', 'burmese', 'main coon', 'rag doll'];
 
-for ( var cat of catArray) {
-    if( cat == 'main coon' ) {
-        console.log(cat, 'Says nothing.. Will Eat your Children')
-    } else { 
-        console.log(cat, 'Says meow')
-    } }
-
-
+// for ( var cat of catArray) {
+//     if( cat == 'main coon' ) {
+//         console.log(cat, 'Says nothing.. Will Eat your Children')
+//     } else { 
+//         console.log(cat, 'Says meow')
+//     } }
 
 
-    var catArray = ['tabby', 'british shorthair', 'burmese', 'main coon', 'rag doll'];
 
-    for( var cat of catArray) {
-          console.log(cat, 'Says meow')
-}
+
+//     var catArray = ['tabby', 'british shorthair', 'burmese', 'main coon', 'rag doll'];
+
+//     for( var cat of catArray) {
+//           console.log(cat, 'Says meow')
+// }
