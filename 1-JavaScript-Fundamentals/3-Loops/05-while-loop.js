@@ -16,29 +16,42 @@
 
 // create a variable 
 
-alert('connected');
+// alert('connected');
 
-var score = 0;
-    // Set a condition in parens 
-while( score < 20 ) {
-    // Set an increment operation 
-    score ++; 
-    //print to the console.
-console.log("score: ", score);
+// var score = 0;
+//     // Set a condition in parens 
+// while( score < 20 ) {
+//     // Set an increment operation 
+//     score ++; 
+//     //print to the console.
+// console.log("score: ", score);
 
-}
+// }
 
-//Another Example 
+// //Another Example 
 
-var age = 0; 
 
-while(age <= 50){
-    age+=10;
-    console.log("Age:" + age);
-}if (age === 50 ){
-    console.log("half way there")
-     while(age <= 100 ) {
-    age+=10;
-    console.log("Age:" + age)
-     } elseif(age === 100 ) {
-    console.log("I made it!")}};
+// for loop vs do while loop
+
+//for loop
+
+var cars = [ 'BMW', 'Volvo', 'Saab', 'Ford'];
+// var i = 0;
+// var text = '';
+
+// for  (;cars[i];) {
+//     text += cars [i] = '<br>';
+//     i++; 
+// }
+
+
+
+
+var u = 0; 
+var text2 = '';
+
+while (cars[u]) {
+    text2 += cars[u] + '<br>';
+    u++;
+  }
+  console.log(text2);
