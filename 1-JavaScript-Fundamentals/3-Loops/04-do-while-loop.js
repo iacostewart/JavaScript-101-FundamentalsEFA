@@ -16,7 +16,7 @@ if the condition (i.e i < 5 ) is  FALSE, the loop stops and control passes.
 
 // var i = 0; 
 
-// do /* do */ {
+//do /* do */ //{
 //     i += 1; /* statement */
 //     console.log(i);
 // } while (i < 20 ); /* while ( condition ) */ 
@@ -30,4 +30,5 @@ if the condition (i.e i < 5 ) is  FALSE, the loop stops and control passes.
 //     text += "The number is: " + i + " ";
 //     i++;
 // } while (i < 10 ); // "The number is: 0", "the number is: 1",...... "the number is: 10";
-// console.log(text);
+// console.log(text);  
+
