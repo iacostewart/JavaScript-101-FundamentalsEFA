@@ -32,3 +32,4 @@ if the condition (i.e i < 5 ) is  FALSE, the loop stops and control passes.
 // } while (i < 10 ); // "The number is: 0", "the number is: 1",...... "the number is: 10";
 // console.log(text);  
 
+
