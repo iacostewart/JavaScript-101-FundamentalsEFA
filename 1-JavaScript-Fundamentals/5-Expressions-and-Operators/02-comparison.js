@@ -9,3 +9,29 @@
 // Less than or equal	    <=	    returns true if value A is smaller or the same as value B	            3 <= 4 //true; 3 <= 3 //true; 4 <= 3 //false
 // AND	                    &&	    returns true ONLY if value/condition A AND value/condition B are true	true && true //true; true && false //false
 // OR	                    ||	    returns true if EITHER value/condition A OR value/condition B are true	true|| false //true; false|| false //false
+
+
+
+
+
+// Opperators allow us to compare values..  replace the words in the sentence with opperators. you can only use each operator once. 
+    // 12  is __ "12".  == 
+    // 14 is ___ 2.        > / >= 
+    // 98 is ___ 98.      ===
+    // 44 is ___ 22 //     >= / > 
+    // 7 is ___ 14   < / <=  
+    // "blue" is ___ "red".   !=
+    // 8 is ___ 12. 
+    // jack ___ jill went up the hill. &&
+    // you cant wear both.. you must pick... either flip-flops ___ sneakers..  ||  
+
+
+    ==
+    >
+    ===
+    >= 
+    < 
+    !=
+    &&
+    ||
+    <=
