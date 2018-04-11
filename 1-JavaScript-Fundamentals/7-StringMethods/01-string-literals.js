@@ -19,6 +19,23 @@
 // Escaping Strings
 // Occasionally there will be times when you want to include special characters within a string to perform a specific function. Using a backslash (\) within a string tells the compiler that the next character is not part of the string, and to treat it differently. Consider the following:
 // console.log('Mary's father said "I don't want you to work there!"');
+
+
+//Given the following code will this print to the console, true or false? 
+
+
+
+console.log('\'Warning don\'t look under Kenn\'s coffee cup\'');
+                            //or 
+console.log("'Warning dont't look under Kenn's coffee cup'");
+     // ^ since we use differnet "" on the outsde we dont confuse JavaScript. 
+     console.log(`'Warning don't look under Kenn's coffee cup'`);
+
+
+
+     //
+
+
 // If you attempt to run this string, it will throw an error because of the apostrophes in the words Mary's and don't. The program things that that is the end of the string. Using the backslash will tell the program to ignore the apostrophe and to allow the code to execute properly:
 // console.log('Mary\'s father said "I don\'t want you to work there!"');
 // File Location

@@ -18,3 +18,12 @@
 // Math.sqrt(), Math.cbrt(), Math.hypot() // Square root/cube root/square root of the sum of square arguments
 // Math.sign() // The sign of a number, indicating whether the number is positive, negative, or zero
 // Unlike many other objects, yo
+
+
+//  write a line of code that generates a random number between 1 and 10. 
+
+
+
+   var a =  Math.floor(Math.random() *10 + 1 );
+
+   console.log(a);
