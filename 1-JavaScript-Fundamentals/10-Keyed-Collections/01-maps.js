@@ -35,3 +35,79 @@
 // Practice
 // Create an array with 4 elements. Then create a map and an object with the same elements and print all three to the console.
 // Think about the differences between a map, and object and an array. What are some advantages and disadvantages of each? Why might you want to use one over the others?
+
+
+/*
+                *** map *** 
+
+    The map object hods key-value pairs. Any value (both objects and primitive values
+        may be used as either a key or a value. 
+
+Syntax... 
+    
+        new map([iterable]) 
+
+        parameters 
+            iterable 
+
+                an arror or other iterable object whoes elements are key-value pairs. (arrays with two elements, eg [[1, 'one'], [2, two]])
+            each key-value pair is added to the new map; null values are treated as undefined. 
+
+
+
+    Description 
+    a map object iterates its elements in insertion order. 
+    a for...of loop returns an array of [key, value] for each iteration. 
+
+
+
+    */
+
+    // var myMap = new Map(); 
+
+    // var KeyString = 'a string',
+    // keyObj = {},
+    // keyFunc = function() {};
+
+    // // setting the values 
+    // myMap.set(KeyString, "value associated with 'a string;");
+    // myMap.set(KeyObj, 'value associated with keyObj');
+    // myMap.set(keyFunc, 'value associated with keyFunc');
+
+    // myMap.size; //3 
+
+    // // getting the values 
+
+    // myMap.get(KeyString); // "value associated with a string".. 
+
+
+    /// 
+    ///     for..of loop:
+
+
+
+
+//     var myMap = new Map();
+
+//     myMap.set(1, 'one');
+//     myMap.set(2, 'two');
+//     myMap.set(3, 'three'); 
+    
+//     for (var [ key, value ] of myMap) {
+//         console.log(key + ' = ' + value);
+
+//     }
+
+
+
+
+//   let arr = [1,2,3,4];
+
+
+
+//   let plus5 = arr.map((val, i, arr) => {
+//       return val + 5; 
+//   })
+//   console.log(plus5);
+    
+

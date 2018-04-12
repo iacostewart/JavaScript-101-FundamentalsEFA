@@ -74,3 +74,8 @@
 // Understand that const values can change and be broken up in different ways, it's just that they can't be reinitialized.
 // More Practice
 // Write a similar, almost verbatim chunk of code to the one above, called filterSingerNames. The function will return a function that filters singer names that are 4 letters long or under, and it will return a function that will return a function that filters singer names that are five letters or more.
+
+// lets look at containers, var , let , const. Of these three containters 
+// which ones need to have thier values initialized when they are declared. 
+
+    

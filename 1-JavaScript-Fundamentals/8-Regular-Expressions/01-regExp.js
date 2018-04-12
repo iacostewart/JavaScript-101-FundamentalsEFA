@@ -50,3 +50,94 @@
 // In the end, we console.log the new string.
 // More practice
 // Our writers also get confused on the word 'their', spelling it thier. Write a function that takes in the efaString, finds any incorrect spellings of 'their', and replaces it with the proper spelling.
+
+
+
+// replace() 
+/* 
+    The replace() method returns a new string with some or all matches of a pattern. 
+        replaced by a replacement. 
+        the pattern can be a string 
+        the pattern can be a RegExp
+        the replacement can be a string or a function to be called for each match. 
+
+        **** note ****
+            the orgional string will remain unchanged. 
+
+        syntax 
+
+            str.replace(regexp|substr, newSbustr|function)
+                
+                regexp (pattern)
+                    A RegExp object or literal. this is the match, or matches to be replaced with newSubStr or the value 
+                    returned by the specified function. 
+                
+                sbstr (pattern)
+                    A string that is to be repalces by newSubStr. It is treated as a verbatium sting
+                        its not intreperted as a regular expression. only the first occurrence will be replaced. 
+                newSubStr (replacement) 
+                    the String that repalces the substring specified by the specified regexp or 
+                    substr parameter. 
+
+                function ( replacement )
+                    a function to be invoked to create the new subsring to be used to 
+                    repalce the matches to the given regexp or substr.
+
+            *** the return value ***
+                A new String with some of or all of teh matches of a pattern replaced
+                by a replacement. 
+
+            
+
+
+*/
+
+
+
+
+
+var str = "one trout, two trout, red trout, blue trout."
+
+function testingMatch(sampleString) {
+    var patternOne = /trout/g;
+    var result = sampleString.match(patternOne);
+    console.log(result);
+}
+testingMatch(str);
+
+
+
+function testtest(str){
+    results = str.replace(/trout/g, "fish");
+    console.log(results);
+}
+
+
+
+
+function replaceTestingMatch(sampleString) {
+    var patternOne = /trout/g;
+    var patternTwo = "Fish"
+    var newString = sampleString.replace(patternOne, patternTwo)
+    console.log(newString);
+
+}
+replaceTestingMatch(str)
+
+
+
+var slangStr = 'how r u doing idk brb'
+
+function fixTheSlang(sampleString) {
+    var slang1 = / r /g;
+    var correct1 = ' are ';
+    var slang2 = /u/g;
+    var correct2 = 'you';
+    var slang3 = /idk/g;
+    var correct3 = 'I don\'t know';
+    var slang4 = /brb/g;
+    var correct4 = 'I will be right back';
+  var fixedStupid = sampleString.replace(slang1,correct1).replace(slang2,correct2).replace(slang3, correct3).replace(slang4, correct4);
+  console.log(fixedStupid);
+}
+fixTheSlang(slangStr);

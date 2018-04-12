@@ -34,3 +34,75 @@
 // Create an array with 4 values, a set with the same values, and print both to the console.
 // Create another array with duplicate values, convert it to a set, then convert it back to an array. Print the result of each action.
 // Think about the relationship between an array and a set. Are there other advantages or disadvantages for each? Why might you use one rather than the other?
+
+/* 
+    the Set object lets you store unique values of any type. 
+    primitive 
+    object refrences.. 
+
+    const set1 = new Set([1,2,3,4,5]);
+
+    console.log(set1.has(1));
+
+    console.log(set1.has(2));
+    
+    console.log(set1.has(6));
+    
+
+
+                *** syntax *** 
+
+        new Set([iterable]); 
+
+        **** return Value *** 
+        a new Set object 
+
+
+    set objects are collections of values. 
+    iterate throught the elements of a set in insertion order. 
+    a value in the set in the set may only occur once; 
+    it is unique in the Set's collection. 
+
+    Properties.... 
+
+    set.lenght 
+        the value of the length property is 0 
+
+    get set[@@species]
+        the constructor function that is used to create derived objects. 
+
+    Set.prototype 
+        Represents the prototype for the Set constructor. Allows the addition of properties to all Set objects. 
+
+    *****  Set instances *** 
+
+    All set instances iherit from Set.prototype. 
+
+
+
+
+    */
+
+    var mySet = new Set();
+
+    mySet.add(1);
+    mySet.add(2);
+    mySet.add(5);
+    mySet.add('hippos are always hungry');
+    // var o = {a: 1,b: 2};
+    // mySet.add(o);
+
+    
+    var myArray = ['value1', 'value2', 'value3','value1'];
+
+
+
+    var testSet = new Set();
+
+        testSet.add(20);
+        testSet.add(44);
+        testSet.add(12);
+        testSet.add(20);
+
+    // if we where to console.log(mySet);
+    //  what would you expect would print out? 
